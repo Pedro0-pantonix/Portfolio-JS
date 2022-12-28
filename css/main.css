@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.landing{
+  height: 96vh;
+  width: 100%;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.logo{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.sobrenome{
+  color:#72CC50;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a{
+  color: White;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  cursor: pointer;
+}
+
+nav ul li a:hover{
+  border-radius: 30px;
+  color: #49B265;
+  transition: .3s;
+}
+
+button{
+  border: none;
+  background: #159947;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 15px;
+  transition: .4s;
+}
+
+button:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.Profile{
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
+
+.aboutme{
+  width: 30%;
+}
+
+.perfil{
+  width: 300px;
+  border-radius: 200px;
+  margin-left: 200px;
+}
+
+.Profile h1{
+  color: whitesmoke;
+  text-align: center;
+}
+
+h1 span{
+  color: aquamarine;
+  text-decoration: underline;
+  font-size: 25px;
+  letter-spacing: 0.25px;
+}
+
+.nome{
+  color: orange;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content-divider{
+  height: 4vh;
+  background: rgb(49,143,96);
+background: linear-gradient(315deg, rgba(49,143,96,1) 0%, rgba(129,221,163,1) 55%, rgba(0,212,255,1) 100%);
+}
+
+.biografia{
+  background-color: aliceblue;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.biografia p{
+  margin-top: 50px;
+  margin-left: 200px;
+  font-size: large;
+  width: 70%;
+  font-size: larger;
+  text-align: justify;
+}
