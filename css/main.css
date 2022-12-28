@@ -8,10 +8,9 @@
 .landing{
   height: 96vh;
   width: 100%;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/bg.jpeg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/background.jpeg);
   background-size: cover;
   background-position: center;
-  background-blend-mode: darken;
 }
 
 nav{
