@@ -5,6 +5,7 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 .landing{
   height: 96vh;
   width: 100%;
@@ -105,6 +106,7 @@ h1 span{
 }
 
 .content-divider{
+  float: left;
   height: 4vh;
   width: 100%;
   background: rgb(49,143,96);
@@ -128,6 +130,17 @@ h1 span{
 }
 
 /**CARDS ------------------**/
+
+.projects-title{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.symbol{
+  color:#23967F;
+  text-decoration: none;
+  font-size: 3rem;
+}
 
 .project{
   position: relative;
@@ -180,9 +193,11 @@ h1 span{
   height: 40vh;
   width: 100%;
   text-align: center;
+  margin-top: 100px;
 }
 
 .curriculum h2{
+  padding-top: 20rem;
   font-size: 2.5rem;
   text-decoration:underline;
   padding-bottom: 20px;
@@ -204,5 +219,6 @@ h1 span{
   font-size: 1.5rem;
   padding-bottom: 30px;
   text-decoration: none;
+  margin-top: 100px;
 }
 
