@@ -13,15 +13,15 @@
       <h2 class="logo">Pedro <span class="sobrenome">Cavalcante</span></h2>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Curriculum</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="./curriculo.pdf">Curriculum</a></li>
+        <li><a href="./contact.html">Contact</a></li>
       </ul>
       <button type="button">Message me</button>
     </nav>
     <h2></h2>
-    <div class="Profile">
+    <div class="Profile" >
       <h1>Olá! Bem vindo!<br>Me chamo <span class="nome">Pedro Henrique</span><br>
       <span>Sou acadêmico de Análise e Desenvolvimento de Sistemas</span></h1>
       <img src="img/myprofile.jpeg" class="perfil">
@@ -30,10 +30,10 @@
   
   <div class="content-divider"></div>
 
-  <div class="biografia"><h1>Sobre mim</h1>
+  <div class="biografia" id="about"><h1>Sobre mim</h1>
     <p>   Sou estudante da área de tecnologia, programando e aprendendo as linguagens C,    JavaScript, HTML, CSS,MYSQL, Java, tenho uma boa base de lógica e me identifico mais com  a área de Front-End.<br><br>
 
-      Estou a procura de uma primeira oportunidade de emprego na área, para que possa colocar em prática minhas habilidades acadêmicas, e me desenvolver profissionalmente, até me tornar um bom desenvolvedor.<br><br>
+      Estou a procura de uma primeira oportunidade de emprego na área, para que possa colocar em prática minhas habilidades acadêmicas, e me desenvolver profissionalmente, para me tornar um bom desenvolvedor.<br><br>
 
       Tenho experiência na parte de infraestrutura, oferecendo suporte aos cliente, montagem e manutenção, experiência própria com edição de vídeos e criação de conteúdo <a href="https://www.youtube.com/channel/UCz0Fqa22Mm426tLxgaMitXg">(visite meu canal aqui)</a>.<br><br>
       participei de eventos acadêmicos como voluntário no Univel Play 2022, projeto de extensão Charrete 2022, publicação de artigo na Jornada Científica 2022.<a href="artigo.pdf">(Veja o artigo aqui)</a><br><br>
@@ -43,9 +43,11 @@
   
   <div class="content-divider"></div>
   <!--start of cards section-->
+  <h1 class="projects-title">Projetos em HTML5, CSS3, e JAVASCRIPT<br><span class="symbol">&#60;/></span></h1>
   <div class="project">
+    
     <!--single card-->
-    <div class="card">
+    <div class="card" id="project">
       <div class="topCard">
         <h2 class="title">Weather App</h2>
         <span class="topText">Aplicativo Usando API de clima tempo</span>
@@ -119,15 +121,18 @@
         </div>
       </div>
     <!--end of single card-->
+
   </div>
   <!--end of cards section-->
 
-  <div class="content-divider"></div>
   
-  <div class="curriculum">
+  
+  <div class="curriculum" >
     <h2>Curtiu os projetos?</h2>
     <h3>Veja meu currículo!</h3>
-    <a href="#" class="linkCurriculo">Curriculum Pedro Henrique Cavalcante da Rosa</a>
-  </div>
+    <a href="./curriculo.pdf" class="linkCurriculo">Curriculum Pedro Henrique Cavalcante da Rosa</a><br>
+  </div><br>
+
+
 </body>
 </html>

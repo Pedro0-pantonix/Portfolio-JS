@@ -190,6 +190,7 @@ h1 span{
 /**Curriculum -----------------**/
 
 .curriculum{
+  position: relative;
   height: 40vh;
   width: 100%;
   text-align: center;
