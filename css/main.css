@@ -53,7 +53,7 @@ nav ul li a:hover{
   transition: .3s;
 }
 
-button{
+message-button{
   border: none;
   background: #159947;
   color: white;
@@ -63,7 +63,7 @@ button{
   transition: .4s;
 }
 
-button:hover{
+message-button:hover{
   transform: scale(1.2);
   cursor: pointer;
 }
