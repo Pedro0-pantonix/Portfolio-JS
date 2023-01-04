@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/main.css"/>
+  <add name=""/>
   <link
       rel="stylesheet"
       href="../fontawesome-free-5.12.1-web/css/all.min.css"
@@ -12,7 +13,7 @@
   <title>WeatherApp</title>
   <script src="../javascript/js.js" defer></script>
 </head>
-<body>
+<body class="weather-body">
   <div class="container">
     <div class="form">
       <h3>Confira o clima de uma cidade:</h3>
@@ -27,12 +28,15 @@
       <h2>
         <i class="fas fa-map-marker-alt"></i>
         <span id="city">Cascavel</span>
-        <img src="" alt="bandeira do pais" id="country" />
+        <img
+        src="https://countryflagsapi.com/png/england"
+        alt="bandeira do pais" 
+        id="country"/>
       </h2>
       <p id="temperature"><span>38</span>&deg;C</p>
       <div id="description-container">
         <p id="description">Nublado</p>
-        <img src="" alt="Condição do tempo" id="weather-icon" />
+        <img src="http://openweathermap.org/img/wn/02d.png" alt="Condição do tempo" id="weather-icon" />
       </div>
       <div id="details-container">
         <p id="umidity">
