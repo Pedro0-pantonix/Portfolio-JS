@@ -53,7 +53,7 @@ nav ul li a:hover{
   transition: .3s;
 }
 
-message-button{
+#message-button{
   border: none;
   background: #159947;
   color: white;
@@ -63,7 +63,7 @@ message-button{
   transition: .4s;
 }
 
-message-button:hover{
+#message-button:hover{
   transform: scale(1.2);
   cursor: pointer;
 }
@@ -131,74 +131,67 @@ h1 span{
 
 /**CARDS ------------------**/
 
-.projects-title{
-  text-align: center;
-  margin-top: 60px;
-}
-
-.symbol{
-  color:#23967F;
-  text-decoration: none;
-  font-size: 3rem;
-}
-
-.project{
-  position: relative;
+.container-cards{
   display: flex;
   justify-content: center;
-  align-items: center;
-  align-content: center;
-  max-width: 100%;
-  height: 70%;
-  background: #FFFBFC;
-  float: left;
-}
-
-.title{
-  padding-bottom: 20px;
+  margin-top: 50px;
+  flex-wrap: wrap;
 }
 
 .card{
-  background: #0A210F;
+  background: white;
+  width: 220px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.image{
+  background:#72CC50;
+  height: 150px;
+  margin-bottom: 50px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-1{
+  background-image: url(../img/weatherbg.jpg);
+}
+
+.card h2{
+  padding: 10px;
+}
+
+.card p{
+  padding: 10px;
+}
+
+.card a{
+  background-color: black;
   color: white;
-  box-shadow: 0px 2px 25px #71B48D;
-  border-radius: 20px;
-  width: 33%;
-  height: fit-content;
-  margin: 100px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
 }
 
 .card:hover{
-  transform: scale(1.01);
-  transition: 1s;
-}
-
-.mediaCard{
-  background: url(../img/weatherbg.jpg) center/cover;
-  height: 300px;
-  width: 100%;
-}
-
-.topCard{
-  padding: 20px;
-}
-
-.bottomCard{
-  padding: 20px;
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
 }
 
 /**Curriculum -----------------**/
 
 .curriculum{
   position: relative;
-  height: 40vh;
+  height: fit-content;
   width: 100%;
   text-align: center;
-  margin-top: 100px;
 }
 
 .curriculum h2{
-  padding-top: 20rem;
   font-size: 2.5rem;
   text-decoration:underline;
   padding-bottom: 20px;
@@ -220,6 +213,5 @@ h1 span{
   font-size: 1.5rem;
   padding-bottom: 30px;
   text-decoration: none;
-  margin-top: 100px;
 }
 
