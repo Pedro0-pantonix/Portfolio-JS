@@ -1,4 +1,5 @@
-# Portfolio-JS
+https://pedrocavalcante.netlify.app/
+SITE HOSPEDADO E DISPONÍVEL ACIMA
 Landing page/Portfolio 
 REPOSITORIO EM ANDAMENTO
  PROJETOS EM JS AINDA A SEREM POSTADOS
