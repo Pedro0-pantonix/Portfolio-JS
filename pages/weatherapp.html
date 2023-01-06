@@ -13,7 +13,8 @@
   <title>WeatherApp</title>
   <script src="../javascript/js.js" defer></script>
 </head>
-<body class="weather-body">
+<body id="weather-body">
+  <img src="" id="weather-body-background">
   <div class="container">
     <div class="form">
       <h3>Confira o clima de uma cidade:</h3>
@@ -31,7 +32,7 @@
         <img
         src=""
         alt="bandeira do pais" 
-        id="country"/>
+        id="country" class="hide"/>
       </h2>
       <p id="temperature"><span></span>&deg;C</p>
       <div id="description-container">

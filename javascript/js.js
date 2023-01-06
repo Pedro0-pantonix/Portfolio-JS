@@ -1,5 +1,5 @@
 // Variaveis e seleção de elementos
-//minuto 41 do video
+//minuto 50 do video
 
 const apiKey = "ff6a72f333f38787bd98c300518c17ad";
 const apiCountryURL = "https://countryflagsapi.com/png/";
@@ -36,7 +36,7 @@ const showWeatherData = async (city) => {
   weatherIconElement.setAttribute("src", `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`);
   countryElement.setAttribute("src", apiCountryURL + data.sys.country);
   humidityElement.innerText = `${data.main.humidity}%`;
-  windElement.innerText = `${data.main.speed}km/h`;
+  windElement.innerText = `${data.wind.speed}km/h`;
   
   weatherContainer.classList.remove("hide");
 
@@ -54,4 +54,39 @@ searchBtn.addEventListener("click", (e) => {
 
   showWeatherData(city);
 });
+
+cityInput.addEventListener("keyup", (e) => {
+  if(e.code === "Enter"){
+    const city = e.target.value;
+    showWeatherData(city);
+  }
+}
+);
+
+//API UNSPLASH //
+
+
+const clientID = "erX0x-Y2_48eC1fTXd78TO0I0luXH6CuchEfz3SZn0Q";
+let endpoint = `https:api.unsplash.com/photos/random?client_id=${clientID}`;
+let imageElement = document.querySelector("#weather-body-background");
+
+
+fetch(endpoint)
+  .then(function(response){
+    return response.json();
+  })
+
+  .then(function(jsonData) {
+    console.log(jsonData);
+    imageElement.style.background = jsonData.urls.regular;
+  })
+
+
+
+
+
+
+
+
+
 
