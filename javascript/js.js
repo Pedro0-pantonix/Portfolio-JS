@@ -37,15 +37,12 @@ const showWeatherData = async (city) => {
   countryElement.setAttribute("src", apiCountryURL + data.sys.country);
   humidityElement.innerText = `${data.main.humidity}%`;
   windElement.innerText = `${data.wind.speed}km/h`;
-  
   weatherContainer.classList.remove("hide");
-
-}
-
+};
 
 
-//Eventos 
 
+//Eventos
 
 searchBtn.addEventListener("click", (e) => {
   e.preventDefault();

@@ -321,9 +321,42 @@ h1 span{
 
 
 
+/*CONTACT -----------------*/
 
+.contacticons{
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  text-align: center;
+  letter-spacing: 4px;
+}
 
+.singleicon{
+  display: block;
+  margin: 60px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
 
+.singleicon i{
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.singleicon a{
+  text-decoration: none;
+  color: black;
+}
+
+.singleicon:hover{
+  background-color: #23967F;
+  transform: scale(1.1);
+  transition: 3s;
+}
 
 
 
